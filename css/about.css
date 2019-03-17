@@ -1,0 +1,108 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  .navbar{
+    display: flex;
+    justify-content:center;
+    background-color:#5e72e4;
+ }
+ .logo{
+     font-weight: bolder;
+     font-style: italic;
+ }
+ .navbar ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 15px;
+     overflow: hidden;
+    
+   }
+   
+   .navbar li {
+     float: left;
+   }
+   
+  .navbar li a {
+     display: block;
+     color: white;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+   }
+   
+   li a:hover {
+     background-color: #111;
+   }
+   h1 ,h2{
+       color: #5e72e4;
+       text-align: center;
+   }
+ 
+
+   .company-description{
+       padding: 40px;
+       font-size: 16px;
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       margin: 0 auto;
+       /* background: red; */
+      
+   }
+   .description-list{
+      padding: 12px;
+      line-height: 40px;
+   
+   }
+
+ .info{
+     padding: 10px;
+ }
+.card-container{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-column-gap: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+ .card{
+   /* background: red; */
+ }
+.card-img{
+  border-radius: 50%;
+  width: 200px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 80%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 #5e72e4;
+}
+
+.container {
+  padding: 2px 16px;
+}
+  
+  .footer {
+    width: 100%;
+    background-color:#5e72e4;
+    color: white;
+    text-align: center;
+    padding: 16px;
+ }
+ .about{
+     background: #5e72e4;
+     font: 400;
+ }
+ .about p{
+    color: white;
+    padding: 5px;
+    word-spacing: 4px;
+    font-size: 16px;
+}
